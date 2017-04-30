@@ -1,0 +1,36 @@
+{
+    "name": "haxeui-preview",
+    "displayName": "HaxeUI Preview",
+    "version": "0.0.1",
+    "publisher": "ibilon",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "license": "MIT",
+    "description": "Preview for HaxeUI xml ui files",
+    "categories": [
+        "Other"
+    ],
+    "icon": "logo.png",
+    "keywords": [
+        "haxe",
+		"haxeui",
+		"preview"
+    ],
+    "main": "bin/main.js",
+    "activationEvents": [
+        "onCommand:haxeui-preview.show"
+    ],
+    "scripts": {
+        "vscode:prepublish": "haxe build_preview.hxml --next build_extension.hxml"
+    },
+    "contributes": {
+        "commands": [
+            {
+                "title": "Open preview",
+                "command": "haxeui-preview.show",
+                "category": "HaxeUI"
+            }
+        ]
+    }
+}

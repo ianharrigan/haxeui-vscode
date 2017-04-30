@@ -1,0 +1,6 @@
+-cp preview
+-main Main
+-js bin/preview.js
+-lib haxeui-core
+-lib haxeui-html5
+-lib hscript
