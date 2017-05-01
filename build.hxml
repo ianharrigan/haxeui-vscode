@@ -2,6 +2,14 @@
 
 --each
 
+-lib haxeui-core
+-lib haxeui-html5
+-lib hscript
+-js bin/preview.js
+-main PreviewApp
+
+--next
+
 -lib hxnodejs
 -lib vscode
 -lib jstack
@@ -10,11 +18,3 @@
 -js bin/main.js
 -debug
 Main
-
---next
-
--lib haxeui-core
--lib haxeui-html5
--lib hscript
--js bin/preview.js
--main PreviewApp
