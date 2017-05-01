@@ -1,6 +1,5 @@
 {
-    "haxe.displayConfigurations": [
-        ["build_extension.hxml"],
-        ["build_preview.hxml"]
-    ]
+	"haxe.displayConfigurations": [
+		["completion.hxml"]
+	]
 }

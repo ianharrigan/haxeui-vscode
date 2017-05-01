@@ -1,9 +1,0 @@
--lib hxnodejs
--lib vscode
--lib jstack
--lib compiletime
--D JSTACK_MAIN=Main.main
--cp src
--js bin/main.js
--debug
-Main

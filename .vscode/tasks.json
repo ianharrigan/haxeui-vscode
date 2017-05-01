@@ -1,6 +1,6 @@
 {
-    "version": "2.0.0",
-    "command": "haxe",
-    "args": ["build_preview.hxml", "--next", "build_extension.hxml"],
-    "problemMatcher": "$haxe"
+	"version": "2.0.0",
+	"command": "haxe",
+	"args": ["build.hxml"],
+	"problemMatcher": "$haxe"
 }

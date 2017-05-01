@@ -7,7 +7,7 @@ extern class PreviewUtils
 	public static function getData () : String;
 }
 
-class Main
+class PreviewApp
 {
 	public static function main ()
 	{
@@ -15,6 +15,7 @@ class Main
 
 		var app = new HaxeUIApp();
 
+		//TODO: error support if invalid data
 		app.ready(function() {
 			var main:Component = Toolkit.componentFromString(PreviewUtils.getData());
 			app.addComponent(main);

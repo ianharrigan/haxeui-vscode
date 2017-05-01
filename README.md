@@ -1,5 +1,17 @@
-# haxeui-preview
+# HaxeUI support for Visual Studio Code
 
-Visual studio code extension for haxeui. Allows you to see a preview of a ui xml file.
+[![Build Status](https://travis-ci.org/haxeui/haxeui-vscode.svg?branch=master)](https://travis-ci.org/haxeui/haxeui-vscode)
 
-![demo](demo.gif)
+This is a work in progress extension for [Visual Studio Code](https://code.visualstudio.com) that adds support for the [HaxeUI](https://github.com/haxeui/haxeui-core) library.
+
+## Features
+
+* Preview of a UI file.
+  ![demo](demo.gif)
+
+## Planned features
+
+* Project generator
+* Live preview
+* UI builder
+* CSS and UI file completion, highlighting, and diagnostics
