@@ -12,7 +12,7 @@ class Main
 		Vscode.commands.registerCommand("haxeui-preview.show", show);
 	}
 
-	function show ()
+	function show () : Void
 	{
 		if (Vscode.window.activeTextEditor != null)
 		{
@@ -89,7 +89,7 @@ class Main
 
 	@:keep
 	@:expose("activate")
-	public static function main (context:ExtensionContext)
+	public static function main (context:ExtensionContext) : Void
 	{
 		new Main(context);
 	}

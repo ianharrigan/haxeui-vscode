@@ -9,17 +9,20 @@ extern class PreviewUtils
 
 class PreviewApp
 {
-	public static function main ()
+	public static function main () : Void
 	{
 		Toolkit.init();
 
 		var app = new HaxeUIApp();
 
 		//TODO: error support if invalid data
-		app.ready(function() {
-			var main:Component = Toolkit.componentFromString(PreviewUtils.getData());
-			app.addComponent(main);
-			app.start();
-		});
+		app.ready(onReady.bind(app));
+	}
+
+	static function onReady (app:HaxeUIApp) : Void
+	{
+		var main:Component = Toolkit.componentFromString(PreviewUtils.getData());
+		app.addComponent(main);
+		app.start();
 	}
 }

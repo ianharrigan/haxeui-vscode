@@ -1,0 +1,11 @@
+-cp src
+-lib haxeui-core
+-lib haxeui-html5
+-lib hscript
+-lib hxnodejs
+-lib vscode
+-lib jstack
+-lib compiletime
+-D JSTACK_MAIN=Main.main
+-js bin/dummy.js
+-debug
