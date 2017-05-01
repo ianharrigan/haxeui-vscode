@@ -7,7 +7,15 @@ haxe:
   - development
 
 install:
-  - haxelib install build.hxml
+  # Extension dependencies
+  - haxelib install hxnodejs
+  - haxelib install vscode
+  - haxelib install jstack
+  - haxelib install compiletime
+  # HaxeUI dependencies
+  - haxelib install hscript
+  - haxelib git haxeui-core https://github.com/haxeui/haxeui-core.git
+  - haxelib git haxeui-html5 https://github.com/haxeui/haxeui-html5.git
 
 script:
   - haxe build.hxml
