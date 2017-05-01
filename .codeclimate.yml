@@ -6,7 +6,7 @@ engines:
     checks:
       MD013:
         enabled: false
-rating:
+ratings:
   paths:
     - "**.hx"
     - "**.md"
