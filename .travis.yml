@@ -7,9 +7,7 @@ haxe:
   - development
 
 install:
-  - haxelib install hxnodejs
-  - haxelib install vscode
-  - haxelib install jstack
+  - haxelib install build.hxml
 
 script:
   - haxe build.hxml
