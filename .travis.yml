@@ -2,6 +2,12 @@ language: haxe
 
 sudo: false
 
+addons:
+  apt:
+    packages:
+    - zlib1g
+    - libpcre3
+
 haxe:
   - "3.4.2"
   - development
