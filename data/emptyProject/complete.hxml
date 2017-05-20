@@ -1,0 +1,5 @@
+-lib haxeui-core
+-lib hscript
+-main Main
+-cp src
+-resource assets/img/haxeui.png

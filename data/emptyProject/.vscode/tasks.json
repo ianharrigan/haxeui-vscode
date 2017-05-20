@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"command": "haxe",
+	"problemMatcher": "$haxe",
+	"tasks": [
+		{
+			"taskName": "Html5",
+			"suppressTaskName": true,
+			"args": ["-lib", "haxeui-html5", "complete.hxml", "-js", "build/html5/main.js"]
+		},
+		{
+			"taskName": "Html5 (debug)",
+			"suppressTaskName": true,
+			"args": ["-debug", "-lib", "haxeui-html5", "complete.hxml", "-js", "build/html5/main.js"],
+			"isBuildCommand": true
+		}
+	]
+}

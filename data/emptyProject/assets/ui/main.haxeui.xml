@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<style source="../css/main.haxeui.css" />
+
+	<label text="Hello world" />
+	<image resource="assets/img/haxeui.png" />
+</vbox>

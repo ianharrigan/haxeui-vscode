@@ -7,15 +7,8 @@
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
 			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ],
-			"stopOnEntry": false
-		},
-		{
-			"name": "Launch Tests",
-			"type": "extensionHost",
-			"request": "launch",
-			"runtimeExecutable": "${execPath}",
-			"args": ["--extensionDevelopmentPath=${workspaceRoot}", "--extensionTestsPath=${workspaceRoot}/test" ],
-			"stopOnEntry": false
+			"stopOnEntry": false,
+			"preLaunchTask": "Build"
 		}
 	]
 }

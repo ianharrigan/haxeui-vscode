@@ -25,7 +25,8 @@
 	},
 	"main": "bin/main.js",
 	"activationEvents": [
-		"onCommand:haxeui-preview.show"
+		"onCommand:haxeui.initproject",
+		"onCommand:haxeui.show"
 	],
 	"scripts": {
 		"vscode:prepublish": "haxe build.hxml"
@@ -33,8 +34,13 @@
 	"contributes": {
 		"commands": [
 			{
+				"title": "Init project",
+				"command": "haxeui.initproject",
+				"category": "HaxeUI"
+			},
+			{
 				"title": "Open preview",
-				"command": "haxeui-preview.show",
+				"command": "haxeui.show",
 				"category": "HaxeUI"
 			}
 		]

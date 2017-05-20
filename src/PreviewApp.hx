@@ -1,3 +1,4 @@
+import haxe.crypto.Base64;
 import haxe.ui.HaxeUIApp;
 import haxe.ui.Toolkit;
 import haxe.ui.core.Component;
@@ -21,7 +22,7 @@ class PreviewApp
 
 	static function onReady (app:HaxeUIApp) : Void
 	{
-		var main:Component = Toolkit.componentFromString(PreviewUtils.getData());
+		var main:Component = Toolkit.componentFromString(Base64.decode(PreviewUtils.getData()).toString());
 		app.addComponent(main);
 		app.start();
 	}
