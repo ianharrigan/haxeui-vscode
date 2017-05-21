@@ -6,6 +6,8 @@ engines:
     checks:
       MD013:
         enabled: false
+exclude_paths:
+  - "data/**.hx"
 ratings:
   paths:
     - "src/**.hx"
