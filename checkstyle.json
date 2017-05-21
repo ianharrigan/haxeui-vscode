@@ -142,13 +142,6 @@
 		},
 		{
 			"props": {
-				"max": 160,
-				"ignorePattern": "^$"
-			},
-			"type": "LineLength"
-		},
-		{
-			"props": {
 				"ignoreExtern": true,
 				"format": "^[a-z][a-zA-Z0-9]*$",
 				"tokens": []
@@ -383,7 +376,7 @@
 					"TRY",
 					"CATCH"
 				],
-				"option": "same"
+				"option": "alone"
 			},
 			"type": "RightCurly"
 		},

@@ -41,7 +41,7 @@ class InitProject
 		}
 	}
 
-	function copyRec (inPath:String, outPath:String, dryRun:Bool=false) : Bool
+	function copyRec (inPath:String, outPath:String, dryRun:Bool = false) : Bool
 	{
 		var overwrite = false;
 
