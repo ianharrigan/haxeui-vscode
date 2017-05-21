@@ -4,7 +4,7 @@
 	"baseDefines": [],
 	"exclude": {
 		"all": [
-			"data"
+			"data/emptyProject"
 		]
 	},
 	"checks": [
