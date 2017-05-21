@@ -8,5 +8,5 @@ engines:
         enabled: false
 ratings:
   paths:
-    - "**.hx"
+    - "src/**.hx"
     - "**.md"
