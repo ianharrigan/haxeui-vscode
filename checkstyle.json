@@ -2,7 +2,11 @@
 	"defineCombinations": [],
 	"defaultSeverity": "INFO",
 	"baseDefines": [],
-	"exclude": {},
+	"exclude": {
+		"all": [
+			"data"
+		]
+	},
 	"checks": [
 		{
 			"props": {},
